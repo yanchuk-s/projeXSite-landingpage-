@@ -1,4 +1,6 @@
- $('.navbar img').addClass('animated slideInDown');
+// FIRST PAGE ANIMATION
+
+$('.navbar img').addClass('animated slideInDown');
 $('.nav').addClass('animated slideInRight');
 
 
@@ -27,3 +29,7 @@ $(document).ready(function () {
 
 
 		 
+
+
+
+
