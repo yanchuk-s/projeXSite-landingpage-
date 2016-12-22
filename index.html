@@ -22,8 +22,12 @@
 	  <link rel="stylesheet" href="css/animate.css">
 	  <link rel="stylesheet" href="css/style.css">
 	  
+	  <link rel="stylesheet" type="text/css" href="css/component.css" />
+	  
+	  
 	   <script src="js/jquery.waypoints.min.js"></script>
 	 
+	  <script src="js/modernizr.custom.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +36,7 @@
     <![endif]-->
   </head>
   <body>
-	  
+<!-- NAVBAR  -->
 	  <div class="navbar">
 		  <div class="container">
 		  		<img src="img/logo.png">
@@ -49,7 +53,11 @@
 			  
 		  </div>
 	  </div>	
+
 	  
+<!-- NAVBAR END  -->
+	  
+<!-- SLIDER BLOCK  -->	  
 	  <div class="sliderBlock">
 		  <div class="container">
 			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -97,16 +105,157 @@
 		  </div>
 	  </div>
 	 
+<!-- SLIDER BLOCK END -->	
 	  
-
+<!-- THREE BLOCK   -->
+	
+	  <div class="threeBlock">
+		  <div class="container">
+			  <h1>Our services</h1>
+			  <img src="img/line.png">
+			  
+			  <div class="row">
+				    <div class="col-md-4 box delay-03s">
+						<img src="img/services1.png">
+						<h2>HTML 5 & CSS3</h2>
+						<p>consectetur adipiscing elit. Duis tempor a nisi in varius.</p>
+				  </div>
+  					<div class="col-md-4 box delay-06s">
+						<img src="img/services2.png">
+						<h2>SEO Optimization </h2>
+						<p>Sed tellus orci, tristique sit amet nisi ut, pharetra tincidunt quam. </p>
+				  </div>
+  					<div class="col-md-4 box delay-1s">
+						<img src="img/services3.png">
+						<h2>Graphic Design</h2>
+						<p>Praesent lacus libero, ultrices quis tellus sit amet, molestie ultricies arcu.</p>
+				  </div>
+			  </div>
+		  </div>
+		 
+	  </div>
 	  
 	  
+<!-- THREE BLOCK END  -->
 	  
+<!-- FOUR BLOCK   -->	  
+	  <div class="fourPage">
+		  <div class="container"></div>
+		  <h1>Our portfolio</h1>
+		  <img src="img/line2.png">
+		  
+		 <ul class="grid effect-6" id="grid">
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/555.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/6.png" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+    </div>
+				</li>
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/7.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/8.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+			    <li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/555.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/7.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+			    <li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/555.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li>
+				<li>
+					<div class="hovereffect">
+        <img class="img-responsive" src="img/8.jpg" alt="">
+            <div class="overlay">
+                <h2>Effect 13</h2>
+				<p> 
+					<a href="#"<i class="fa fa-github" aria-hidden="true"></i></a>
+				</p> 
+            </div>
+    </div>
+				</li> 
+				
+				
+			</ul>
+		  
+	  </div>
+	  
+<!-- FOUR BLOCK END  -->		  
 	  
 	  
 	  
 	   <script src="js/jquery-3.1.1.min.js"></script>
-	
+	  
+<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/AnimOnScroll.js"></script>
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script>
+	  
 	  <script src="js/nav.js"></script>
 	  <script src="js/animated.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
