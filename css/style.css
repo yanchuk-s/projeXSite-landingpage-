@@ -298,3 +298,58 @@ a, a:hover{text-decoration: none;}
   transform: translate3d(0,0,0);
 }
 /*--------------------------------- FOUR BLOCK END --------------------------------------------------------*/
+
+/*---------------------------------------- FIVE BLOCK ---------------------------------------------------------------*/
+
+.fivepage{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #e8e8e8;
+	text-align: center;
+}
+
+.fivepage h1{color: #616161;font-family: "Andale Mono", monospace;font-size: 30px;margin-bottom: 15px;}
+.fivepage h2{color: #616161;font-family: "Andale Mono", monospace;font-size: 20px;margin-bottom: 10px;}
+.fivepage p{color: black;font-family: monospace;font-size: 15px;margin-bottom: 15px;}
+.fivepage img {margin-bottom: 30px;}
+
+
+#fotoOne {max-height: 170px; max-width: 170px;}
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+	cursor: pointer;
+	font-size: 30px; color:#ff5959; text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+	margin-bottom: 50px;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+	color: black;
+}
+
+
+/*---------------------------------------- FIVE BLOCK END---------------------------------------------------------------*/
